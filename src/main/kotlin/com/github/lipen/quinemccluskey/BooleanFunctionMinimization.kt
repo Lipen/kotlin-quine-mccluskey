@@ -15,5 +15,5 @@ fun minimizeToDNF(
         )
     val coveringPrimeImplicants = essentialPrimeImplicants + additionalPrimeImplicants
 
-    return coveringPrimeImplicants.map { it.toLiterals() }
+    return coveringPrimeImplicants.map { it.literals }
 }

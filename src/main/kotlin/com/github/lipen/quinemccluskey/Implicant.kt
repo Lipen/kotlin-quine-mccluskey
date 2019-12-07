@@ -43,17 +43,6 @@ internal data class Implicant(
         return Implicant(minterms + other.minterms, result)
     }
 
-    fun toLiterals(): List<Literal> {
-        return binary.mapIndexedNotNull { i, c ->
-            when (c) {
-                '1' -> i + 1
-                '0' -> -(i + 1)
-                '-' -> null
-                else -> error("Bad character in binary string: '$c'")
-            }
-        }
-    }
-
     override fun toString(): String {
         return "Implicant(${minterms.sorted()}, '$binary')"
     }
