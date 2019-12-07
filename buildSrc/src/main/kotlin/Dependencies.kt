@@ -6,7 +6,6 @@ object Versions {
     const val junit = "5.6.0-M1"
     const val gradle_versions = "0.27.0"
     const val jgitver = "0.10.0-rc01"
-    const val dokka = "0.10.0"
 }
 
 object Libs {
