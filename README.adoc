@@ -1,6 +1,6 @@
 = Quine–McCluskey
 
-image:https://travis-ci.com/Lipen/kotlin-quine-mccluskey.svg["Build Status", link="https://travis-ci.org/Lipen/kotlin-quine-mccluskey"]
+image:https://travis-ci.com/Lipen/kotlin-quine-mccluskey.svg["Build Status", link="https://travis-ci.com/Lipen/kotlin-quine-mccluskey"]
 image:https://jitpack.io/v/Lipen/kotlin-quine-mccluskey.svg["JitPack", link="https://jitpack.io/p/Lipen/kotlin-quine-mccluskey"]
 image:https://hitsofcode.com/github/Lipen/kotlin-quine-mccluskey["Hits-of-Code", link="https://hitsofcode.com/view/github/Lipen/kotlin-quine-mccluskey"]
 
