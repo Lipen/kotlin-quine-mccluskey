@@ -35,7 +35,7 @@ internal fun getPrimeImplicants(
         }
 
         groups.flatten().filter { !it.marked }.toCollection(primeImplicants)
-        groups = newGroups //.map { group -> group.distinctBy { term -> term.binary } }
+        groups = newGroups
     }
 
     return primeImplicants.toList()
