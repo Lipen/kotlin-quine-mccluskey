@@ -20,6 +20,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
     testImplementation(Libs.junit_jupiter_api)
+    testImplementation(Libs.junit_jupiter_params)
     testImplementation(Libs.kluent)
     testRuntimeOnly(Libs.junit_jupiter_engine)
 }
