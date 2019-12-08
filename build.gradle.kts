@@ -70,7 +70,7 @@ tasks {
             systemProperty("junit.jupiter.testinstance.lifecycle.default", "per_class")
         }
         testLogging.events(
-            TestLogEvent.PASSED,
+            // TestLogEvent.PASSED,
             TestLogEvent.FAILED,
             TestLogEvent.SKIPPED,
             TestLogEvent.STANDARD_ERROR
