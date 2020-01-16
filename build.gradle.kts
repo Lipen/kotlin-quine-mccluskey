@@ -66,9 +66,7 @@ tasks {
 
     withType<Test> {
         @Suppress("UnstableApiUsage")
-        useJUnitPlatform {
-            systemProperty("junit.jupiter.testinstance.lifecycle.default", "per_class")
-        }
+        useJUnitPlatform()
         testLogging.events(
             // TestLogEvent.PASSED,
             TestLogEvent.FAILED,
